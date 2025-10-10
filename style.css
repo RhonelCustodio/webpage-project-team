@@ -3,9 +3,11 @@
     --primary-color: #007BFF;
     --secondary-color: #6C757D;
     --text-dark: #343A40;
-    --text-light: #F8F9FA;
+    --text-light: #fff;
+    --skills-text: #4d4e4f;
     --bg-light: #FFFFFF;
-    --bg-dark: #343A40;
+    --bg-dark: #1C352D;
+    --bg-nav: #2F5249;
 }
 
 * {
@@ -84,8 +86,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    background: rgba(52, 58, 64, 0.9);
+    padding: 5px 20px;
+    background-color: var(--bg-nav);
     position: fixed;
     top: 0;
     z-index: 1000;
@@ -93,7 +95,7 @@ nav {
 
 .logo img {
     aspect-ratio: 1;
-    width: 5rem;
+    width: 4rem;
     border-radius: 50%;
     position: relative;
 }
@@ -183,7 +185,7 @@ nav {
 .skill-category {
     flex: 1;
     max-width: 400px;
-    background-color: #495057; 
+    background-color: #90D1CA; 
     padding: 30px;
     border-radius: 8px;
 }
@@ -200,6 +202,7 @@ nav {
 
 .skill-category li {
     padding: 5px 0;
+    color: var(--skills-text);
 }
 
 /* PROJECTS SECTION */
