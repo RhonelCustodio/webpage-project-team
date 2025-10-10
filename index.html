@@ -3,120 +3,157 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rhonel Allen A. Custodio | Portfolio</title>
-    <link rel="stylesheet" href="style.css"> 
+    <title>Victoria Hotline Numbers</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8;
+        }
+        .hotline-card {
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .hotline-number:active {
+            transform: scale(0.98);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 0px 2px rgba(0, 0, 0, 0.08);
+        }
+    </style>
 </head>
-<body>
+<body class="bg-[#f2f2f2] text-gray-800">
 
-    <header id="home">
-        <nav>
-            <div class="logo">
-                <img src="logo.png" alt="Rhonel Allen A. Custodio Logo/Photo">
+    <div class="container mx-auto p-4 max-w-2xl">
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
+            <!-- Header section -->
+            <div class="bg-yellow-100 p-4 border-b-2 border-yellow-300 flex flex-col items-center">
+                <div class="flex items-center justify-center space-x-2 mb-2">
+                    <img src="https://placehold.co/40x40/fff/000?text=Logo" onerror="this.src='https://placehold.co/40x40/fff/000?text=Logo';" alt="Victoria Logo" class="w-10 h-10 rounded-full">
+                    <div class="text-center">
+                        <p class="text-sm font-semibold">MUNICIPALITY OF VICTORIA</p>
+                        <p class="text-xs">PROVINCE OF TARLAC</p>
+                    </div>
+                </div>
+                <h1 class="text-lg md:text-xl lg:text-2xl font-bold tracking-wide">HOTLINE NUMBERS</h1>
             </div>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-        <div class="hero">
-            <h1>Rhonel Allen A. Custodio</h1>
-            <p>Aspiring Professional | Dedicated to Continuous Learning and Growth</p>
-            <a href="#projects" class="button primary">View Projects</a>
+            
+            <!-- Hotline list -->
+            <div class="p-4 space-y-4">
+
+                <!-- Hotline Item 1: MDRRM -->
+                <div class="hotline-card bg-gray-50 rounded-lg p-3 flex items-center space-x-4">
+                    <div class="flex-shrink-0">
+                        <img src="https://placehold.co/60x60/4c7c34/fff?text=MDRRM" onerror="this.src='https://placehold.co/60x60/4c7c34/fff?text=MDRRM';" alt="MDRRM Logo" class="w-12 h-12 rounded-full border-2 border-gray-200">
+                    </div>
+                    <div class="flex-grow">
+                        <div class="font-bold text-lg">MDRRM</div>
+                        <a href="tel:09395131408" class="hotline-number block text-sm text-gray-600 font-semibold">(0939)513-1408</a>
+                        <a href="tel:09773289562" class="hotline-number block text-sm text-gray-600 font-semibold">(0977)328-9562</a>
+                    </div>
+                </div>
+
+                <!-- Hotline Item 2: BFP -->
+                <div class="hotline-card bg-gray-50 rounded-lg p-3 flex items-center space-x-4">
+                    <div class="flex-shrink-0">
+                        <img src="https://placehold.co/60x60/9e0007/fff?text=BFP" onerror="this.src='https://placehold.co/60x60/9e0007/fff?text=BFP';" alt="BFP Logo" class="w-12 h-12 rounded-full border-2 border-gray-200">
+                    </div>
+                    <div class="flex-grow">
+                        <div class="font-bold text-lg">BFP</div>
+                        <a href="tel:09254914746" class="hotline-number block text-sm text-gray-600 font-semibold">(0925)491-4746</a>
+                    </div>
+                </div>
+
+                <!-- Hotline Item 3: PNP -->
+                <div class="hotline-card bg-gray-50 rounded-lg p-3 flex items-center space-x-4">
+                    <div class="flex-shrink-0">
+                        <img src="https://placehold.co/60x60/003884/fff?text=PNP" onerror="this.src='https://placehold.co/60x60/003884/fff?text=PNP';" alt="PNP Logo" class="w-12 h-12 rounded-full border-2 border-gray-200">
+                    </div>
+                    <div class="flex-grow">
+                        <div class="font-bold text-lg">PNP</div>
+                        <a href="tel:09129559942" class="hotline-number block text-sm text-gray-600 font-semibold">(0912)955-9942</a>
+                    </div>
+                </div>
+
+                <!-- Hotline Item 4: PDRRM -->
+                <div class="hotline-card bg-gray-50 rounded-lg p-3 flex items-center space-x-4">
+                    <div class="flex-shrink-0">
+                        <img src="https://placehold.co/60x60/c80005/fff?text=PDRRM" onerror="this.src='https://placehold.co/60x60/c80005/fff?text=PDRRM';" alt="PDRRM Logo" class="w-12 h-12 rounded-full border-2 border-gray-200">
+                    </div>
+                    <div class="flex-grow">
+                        <div class="font-bold text-lg">PDRRM</div>
+                        <a href="tel:09088872339" class="hotline-number block text-sm text-gray-600 font-semibold">(0908)887-2339</a>
+                        <a href="tel:09178069276" class="hotline-number block text-sm text-gray-600 font-semibold">(0917)806-9276</a>
+                    </div>
+                </div>
+
+                <!-- Hotline Item 5: OTM -->
+                <div class="hotline-card bg-gray-50 rounded-lg p-3 flex items-center space-x-4">
+                    <div class="flex-shrink-0">
+                        <img src="https://placehold.co/60x60/1a4d1a/fff?text=OTM" onerror="this.src='https://placehold.co/60x60/1a4d1a/fff?text=OTM';" alt="OTM Logo" class="w-12 h-12 rounded-full border-2 border-gray-200">
+                    </div>
+                    <div class="flex-grow">
+                        <div class="font-bold text-lg">OTM</div>
+                        <a href="tel:09190765146" class="hotline-number block text-sm text-gray-600 font-semibold">(0919)076-5146</a>
+                    </div>
+                </div>
+
+                <!-- Hotline Item 6: TARELCO -->
+                <div class="hotline-card bg-gray-50 rounded-lg p-3 flex items-center space-x-4">
+                    <div class="flex-shrink-0">
+                        <img src="https://placehold.co/60x60/003366/fff?text=TARELCO" onerror="this.src='https://placehold.co/60x60/003366/fff?text=TARELCO';" alt="TARELCO Logo" class="w-12 h-12 rounded-full border-2 border-gray-200">
+                    </div>
+                    <div class="flex-grow">
+                        <div class="font-bold text-lg">TARELCO I</div>
+                        <a href="tel:09988420741" class="hotline-number block text-sm text-gray-600 font-semibold">(0998)842-0741</a>
+                    </div>
+                </div>
+                
+                <!-- Hotline Item 7: BALIBAGO WATER WORKS, INC. -->
+                <div class="hotline-card bg-gray-50 rounded-lg p-3 flex items-center space-x-4">
+                    <div class="flex-shrink-0">
+                        <img src="https://placehold.co/60x60/01777b/fff?text=WATER" onerror="this.src='https://placehold.co/60x60/01777b/fff?text=WATER';" alt="Balibago Water Works, Inc. Logo" class="w-12 h-12 rounded-full border-2 border-gray-200">
+                    </div>
+                    <div class="flex-grow">
+                        <div class="font-bold text-lg">BALIBAGO WATER WORKS, INC.</div>
+                        <a href="tel:09293548205" class="hotline-number block text-sm text-gray-600 font-semibold">(0929)354-8205</a>
+                    </div>
+                </div>
+
+                <!-- Hotline Item 8: MENRO -->
+                <div class="hotline-card bg-gray-50 rounded-lg p-3 flex items-center space-x-4">
+                    <div class="flex-shrink-0">
+                        <img src="https://placehold.co/60x60/006a8e/fff?text=MENRO" onerror="this.src='https://placehold.co/60x60/006a8e/fff?text=MENRO';" alt="MENRO Logo" class="w-12 h-12 rounded-full border-2 border-gray-200">
+                    </div>
+                    <div class="flex-grow">
+                        <div class="font-bold text-lg">MENRO</div>
+                        <a href="tel:09190765126" class="hotline-number block text-sm text-gray-600 font-semibold">(0919)076-5126</a>
+                    </div>
+                </div>
+
+                <!-- Hotline Item 9: GSO -->
+                <div class="hotline-card bg-gray-50 rounded-lg p-3 flex items-center space-x-4">
+                    <div class="flex-shrink-0">
+                        <img src="https://placehold.co/60x60/5c5c5c/fff?text=GSO" onerror="this.src='https://placehold.co/60x60/5c5c5c/fff?text=GSO';" alt="GSO Logo" class="w-12 h-12 rounded-full border-2 border-gray-200">
+                    </div>
+                    <div class="flex-grow">
+                        <div class="font-bold text-lg">GSO</div>
+                        <a href="tel:09190765140" class="hotline-number block text-sm text-gray-600 font-semibold">(0919)076-5140</a>
+                    </div>
+                </div>
+
+                <!-- Hotline Item 10: ICOS -->
+                <div class="hotline-card bg-gray-50 rounded-lg p-3 flex items-center space-x-4">
+                    <div class="flex-shrink-0">
+                        <img src="https://placehold.co/60x60/4c4c4c/fff?text=ICOS" onerror="this.src='https://placehold.co/60x60/4c4c4c/fff?text=ICOS';" alt="ICOS Logo" class="w-12 h-12 rounded-full border-2 border-gray-200">
+                    </div>
+                    <div class="flex-grow">
+                        <div class="font-bold text-lg">ICOS</div>
+                        <a href="tel:09190765127" class="hotline-number block text-sm text-gray-600 font-semibold">(0919)076-5127</a>
+                    </div>
+                </div>
+
+            </div>
         </div>
-    </header>
-
-    <main>
-        <section id="about" class="container">
-            <h2>About Me</h2>
-            <div class="about-content">
-                <p>
-                    I am a highly adaptable and hardworking individual driven by a passion for continuous learning and personal growth. My objective is to secure a position where I can apply my foundational skills and immediately contribute to team goals and institutional development.
-                </p>
-                <p>
-                    As a multi-tasker, I employ disciplined time management to prioritize tasks effectively and work under pressure. I approach every responsibility with integrity and diligence, ensuring that all my work is accurate, reliable, and completed independently.
-                </p>
-                <h3>Educational Background</h3>
-                <ul>
-                    <li>Senior High School: Victoria National High School, Tarlac (2020-2022)</li>
-                    <li>Junior High School: Victoria National High School, Tarlac (2016-2020)</li>
-                    <li>Primary: Victoria West Central Elementary School, Tarlac (2010-2016)</li>
-                </ul>
-            </div>
-        </section>
-
-        <section id="skills" class="container dark-bg">
-            <h2>Skills & Traits</h2>
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <h3>Technical Skills</h3>
-                    <ul>
-                        <li>Web Development: HTML5, CSS3, JavaScript</li>
-                        <li>Version Control: Git & GitHub</li>
-                        <li>Office Tools: Microsoft Word, Excel, PowerPoint</li>
-                    </ul>
-                </div>
-                <div class="skill-category">
-                    <h3>Personal Strengths</h3>
-                    <ul>
-                        <li>Hardworking & Trustworthy</li>
-                        <li>Multi-Tasking & Time Management</li>
-                        <li>Can Work Under Pressure</li>
-                        <li>Passion for Continuous Learning</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <section id="projects" class="container">
-            <h2>Featured Projects</h2>
-            <p class="section-subtitle">Showcasing my ability to apply learning and manage independent tasks.</p>
-
-            <div class="project-card">
-                <h3>1. Portfolio Website (This Page)</h3>
-                <p>A demonstration of foundational front-end skills. Built as a single-page application using clean HTML5 structure and responsive CSS3 styling.</p>
-                <div class="project-links">
-                    <a href="#" target="_blank" class="button secondary">Live Demo (You are here!)</a>
-                    <a href="[Your-GitHub-Repo-Link]" target="_blank" class="button">GitHub Repo</a>
-                </div>
-            </div>
-
-            <div class="project-card">
-                <h3>2. Basic To-Do List Application</h3>
-                <p>A small application to practice basic JavaScript logic and DOM manipulation. (In Progress - Demonstrates Eagerness to Learn)</p>
-                <div class="project-links">
-                    <a href="#" class="button disabled">Live Demo (Soon)</a>
-                    <a href="[Your-GitHub-Repo-Link-2]" target="_blank" class="button">GitHub Repo</a>
-                </div>
-            </div>
-
-            <div class="project-card">
-                <h3>3. Senior High School Research Documentation</h3>
-                <p>Digital archive of a major academic project. Demonstrates research, organizational, and technical documentation skills.</p>
-                <div class="project-links">
-                    <a href="#" class="button secondary">View Documentation</a>
-                    <a href="[Your-GitHub-Repo-Link-3]" target="_blank" class="button">GitHub Repo</a>
-                </div>
-            </div>
-        </section>
-
-        <section id="contact" class="container dark-bg">
-            <h2>Get In Touch</h2>
-            <p>I am eager to discuss opportunities where I can contribute and continue to grow my skills.</p>
-            <div class="contact-info">
-                <p><strong>Email:</strong> <a href="mailto:custodiorhonel@gmail.com">custodiorhonel@gmail.com</a></p>
-                <p><strong>Outlook:</strong> <a href="mailto:ra.custodio00587@student.teu.edu.ph">ra.custodio00587@student.tsu.edu.ph</a></p>
-                <p><strong>Mobile:</strong> 09916744853</p>
-                <p><strong>GitHub:</strong> <a href="https://github.com/RhonelCustodio" target="_blank">RhonelCustodio</a></p>
-                <p><strong>Facebook:</strong> <a href="https://www.facebook.com/zhkel8" target="_blank">Rhonel Custodio</a></p>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2025 Rhonel Allen A. Custodio. Built with HTML and CSS.</p>
-        <a href="#home">Back to Top</a>
-    </footer>
+    </div>
 </body>
 </html>
